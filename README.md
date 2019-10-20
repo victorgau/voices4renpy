@@ -1,5 +1,11 @@
 # 用 TTS 產生 RenPy 需要的音檔
 
+RenPy 網址：https://www.renpy.org/
+
+RenPY 說明文檔：https://www.renpy.org/doc/html/
+
+這個專案主要是要用 TTS 的方式產生 RenPy 中的角色對話用的 .ogg 檔。
+
 gvoice.py 可以使用 google TTS 產生 .ogg 檔。不過好像沒有辦法選擇性別。
 
 msvoice.py 會用 MS SAPI5 來產生 .wav 檔，再用 pysoundfile 將 .wav 轉成 .ogg。
