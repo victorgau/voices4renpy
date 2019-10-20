@@ -9,4 +9,8 @@ msvoice.py 會用 MS SAPI5 來產生 .wav 檔，再用 pysoundfile 將 .wav 轉�
 
 get_voice_name.py 可以列出系統上有那些聲音。
 
+一些免費的 sprites 的下載網址：
+
+https://itch.io/game-assets/free/genre-visual-novel
+
 
