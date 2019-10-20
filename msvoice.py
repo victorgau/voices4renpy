@@ -1,12 +1,11 @@
 import mstts
 import soundfile as sf
 
-mstts.get_name()
-
-filename = "hanhan"
+filename = "Dino"
+text = "Dino，你好可愛！"
 mstts.create(name="Hanhan", 
              filename=filename+".wav",
-             message="可是他線在水很髒！臭死了！", 
+             message=text, 
              rate=0, 
              volume=100)
 
